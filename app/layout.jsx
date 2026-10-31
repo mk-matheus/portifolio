@@ -1,7 +1,4 @@
 import "./globals.css"
-import { Inter } from "next/font/google"
-
-const inter = Inter({ subsets: ["latin"], display: "swap" })
 import Navigation from "@/components/Navigation"
 import Footer from "@/components/Footer"
 import { profile, siteTitle, siteDescription } from "@/data/profile"
@@ -60,7 +57,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-BR" className={inter.className}>
+    <html lang="pt-BR">
       <body suppressHydrationWarning className="bg-slate-900 text-slate-100 min-h-screen overflow-x-hidden antialiased">
         <div className="fixed inset-0 bg-gradient-to-br from-sky-900/20 via-slate-900 to-green-900/20 pointer-events-none" />
         <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-sky-400/10 via-transparent to-transparent pointer-events-none" />
