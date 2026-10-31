@@ -25,3 +25,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# agent & refactor artifacts
+/.agents/
+skills-lock.json
+prompt-refatoracao-portfolio.md
